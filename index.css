@@ -1,0 +1,47 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin:0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: slategray;
+    font-size: 30px;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    
+}
+
+nav ul li a{
+text-decoration: none;
+color: #b3c1b8;
+font-size: 20px;
+
+}
+nav ul li a:hover{
+    font-size: 25px;
+    font-weight: 700;
+    opacity: 1.5;
+    text-decoration: wavy;
+}
+
+.card{
+    width: 60%;
+    height: 80%;
+    background-origin: padding-box;
+    box-shadow: 8px 8px 8px 8px slategray;
+    box-sizing: border-box;
+   outline: none;
+   justify-content: center;
+   align-content: center;
+   position: relative;
+   left: 400px;
+}
