@@ -33,15 +33,3 @@ nav ul li a:hover{
     text-decoration: wavy;
 }
 
-.card{
-    width: 60%;
-    height: 80%;
-    background-origin: padding-box;
-    box-shadow: 8px 8px 8px 8px slategray;
-    box-sizing: border-box;
-   outline: none;
-   justify-content: center;
-   align-content: center;
-   position: relative;
-   left: 400px;
-}
