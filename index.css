@@ -1,5 +1,5 @@
 html{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body{
@@ -24,6 +24,7 @@ nav ul li a{
 text-decoration: none;
 color: #b3c1b8;
 font-size: 20px;
+transition: 1s;
 
 }
 nav ul li a:hover{
@@ -33,3 +34,45 @@ nav ul li a:hover{
     text-decoration: wavy;
 }
 
+.center{
+    text-align: center;
+}
+
+.card{
+    
+    box-shadow: 4px 6px 8px 6px #b3c1b8;
+    transition: 0.3s;
+    width:35%;
+    height: 80px;
+    position: relative;
+    left:650px;
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    justify-content: center;
+    
+    
+}
+.container {
+    padding: 12px 16px;
+    color: slategray;
+    text-align: center;
+  }
+
+  .container p{
+      font-size: 22px;
+  }
+
+  footer ul li{
+      text-align: center;
+      list-style-type: none;
+      display: inline;
+      padding: 12px 16px;
+      font-size: 30px;
+  }
+  footer ul li a{
+      text-align: center;
+  }
+ 
