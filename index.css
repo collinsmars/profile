@@ -51,7 +51,17 @@ nav ul li a:hover{
   .container p{
       font-size: 22px;
   }
+footer ul li{ 
+    list-style:none;
+    display:inline;
+}
 
+footer ul li a{
+    width:5px;
+    height:5px;
+}
+
+}
 
 .fter{
     width:300px;
