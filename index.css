@@ -13,8 +13,6 @@ nav ul a{
     padding: 10px;
     color: slategray;
     font-size: 30px;
-    
-    background-color: skyblue;
     margin: 10px;
 }
 nav ul li{
@@ -55,7 +53,10 @@ footer ul li{
     list-style:none;
     display:inline;
 }
-
+footer ul li a{
+    margin :10px;
+    padding: 10px;
+}
 
 
 .fter{
