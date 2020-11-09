@@ -91,13 +91,11 @@ footer ul li a:hover{
 
 .fter{
     position: relative;
-    top: 240px;
+    top: 120px;
     margin:  0px auto;
     width:350px;
     box-sizing: border-box;
 }
 
-p{
-    justify-content: center;
-}
+
  
