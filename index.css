@@ -1,5 +1,6 @@
 html{
     font-family: 'Titillium Web', sans-serif;
+    background-color: white;
 }
 
 body{
@@ -26,7 +27,7 @@ nav ul li{
 
 nav ul li a{
 text-decoration: none;
-color: #b3c1b8;
+color: slategray;
 font-size: 20px;
 transition: 1s;
 
@@ -40,6 +41,7 @@ nav ul li a:hover{
 
 .center{
     text-align: center;
+
 }
 
 
@@ -49,6 +51,7 @@ nav ul li a:hover{
     padding: 12px 16px;
     color: slategray;
     text-align: center;
+    font-size: larger;
   }
 
   .container p{
@@ -56,6 +59,13 @@ nav ul li a:hover{
   }
   footer{
       width:100%;
+  }
+  footer ul{
+      border: 3px solid #B4C3BE;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
   }
 footer ul li{ 
     list-style:none;
@@ -65,18 +75,23 @@ footer ul li a{
     margin :5px;
     padding: 10px;
     font-size: 55px ;
-    border: 2px solid white;
+    
     border-radius: 5px;
     box-sizing: border-box;
     transition: 1s;
+    width: 10px;
+    height:20px;
 }
 footer ul li a:hover{
     color:skyblue;
 }
 
+
 .fter{
-   position: relative;
-   bottom: 5px;
-   left:750px;
+    position: relative;
+    top: 250px;
+  margin:  5px auto;
+  width:350px;
+  box-sizing: border-box;
 }
  
