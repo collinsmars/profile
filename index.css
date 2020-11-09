@@ -10,7 +10,7 @@ body{
 }
 nav{
     position: fixed;
-    left:600px;
+    left:400px;
 }
 nav ul a{
     text-decoration: none;
